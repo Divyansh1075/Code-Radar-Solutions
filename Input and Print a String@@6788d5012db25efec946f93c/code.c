@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    char str;
-    scan("%s", %str);
+    char str[20];
+    scan("%19s", &str);
     printf("You entered: %s", str);
     return 0;
-    
+
 }
