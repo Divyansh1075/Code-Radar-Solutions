@@ -19,7 +19,7 @@ int main() {
     }
     // If it's none of the above, it's a special character
     else {
-        printf("Special character\n");
+        printf("Special Character\n");
     }
 
     return 0;
