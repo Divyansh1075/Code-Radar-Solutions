@@ -10,7 +10,7 @@ int main() {
     if(b == a**2){
         printf("Yes");
     }else{
-        pritf("No");
+        printf("No");
     }
     return 0;
 }
