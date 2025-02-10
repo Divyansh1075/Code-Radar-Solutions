@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a;
     scanf("%i", &i);
-    if(a>1 && a%1==0 && a%a){
+    if(a>1 && a%1==0 && a%a==0){
         printf("Prime");
     }else{
         printf("Not Prime");
