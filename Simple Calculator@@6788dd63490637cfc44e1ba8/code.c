@@ -18,7 +18,7 @@ int main() {
         if (b != 0) {
             printf("%i", a / b);
         } else {
-            printf("Error: Division by zero");
+            printf("Error");
         }
     } else if (symbol == '%') {
         printf("%i", a % b);
