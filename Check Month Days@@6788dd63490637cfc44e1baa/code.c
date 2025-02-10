@@ -16,18 +16,18 @@ int main() {
         case 8: // August
         case 10: // October
         case 12: // December
-        printf("%i", 31)
+        printf("%d", 31)
             break;
 
         case 4: // April
         case 6: // June
         case 9: // September
         case 11: // November
-            printf("%i", 30);
+            printf("%d", 30);
             break;
 
         case 2: // February
-            printf("%i", 28);
+            printf("%d", 28);
             break;
 
         default:
