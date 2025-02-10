@@ -16,7 +16,7 @@ int main() {
         case 8: // August
         case 10: // October
         case 12: // December
-        printf("%d", 31)
+        printf("%d", 31);
             break;
 
         case 4: // April
