@@ -4,8 +4,8 @@
 int main() {
 
 
-    ch day;
-    scnaf("%c", &day);
+    int day;
+    scnaf("%i", &day);
     switch(day){
         case 1: printf("Monday");
         case 2: printf("Tuesday");
