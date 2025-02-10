@@ -4,7 +4,7 @@ int main() {
     char grade;
 
     // Prompt the user to enter a grade
-    printf("Enter the grade (A, B, C, D, F): ");
+    
     scanf("%c", &grade);  // Input a character grade
 
     // Use a switch statement to evaluate the grade
