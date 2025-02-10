@@ -16,7 +16,6 @@ int main() {
         case 8: // August
         case 10: // October
         case 12: // December
-            printf("Number of days: 31\n");
             break;
 
         case 4: // April
