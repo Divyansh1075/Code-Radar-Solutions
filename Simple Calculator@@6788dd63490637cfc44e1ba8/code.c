@@ -7,11 +7,11 @@ int main() {
     scanf("%i %i %c", &a, &b, &symbol);
     if (symbol=='+'){
         printf("%i", a+b);
-    }if else(symbol=='-'){
+    }else if(symbol=='-'){
         printf("%i", a-b);
-    }if else(symbol=='*'){
+    }else if(symbol=='*'){
         printf("%i", a*b);
-    }if else(symbol=='/'){
+    }else if(symbol=='/'){
         printf("%i", a/b);
     }
     return 0;
