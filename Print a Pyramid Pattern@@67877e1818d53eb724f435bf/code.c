@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 int main(){
-    int N, j, i;
+    int N, j, i, k;
     scanf("%i", &N);
-    for(i=1; i<=N; i++){
-        printf(" ");
-        for(j=1; j<=i; j++){
+    for(i=0; i<=N; i++){
+        for(j=1; j=i-1; j++){
+            printf(" ");
+        }
+        for(k=1; k=2*1-1; k++){
             printf("*");
         }
-        printf(" ");
         printf("\n");
-    }
+    
+    }    
+
     return 0;
 }
