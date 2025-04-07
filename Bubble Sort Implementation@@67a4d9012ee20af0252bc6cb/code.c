@@ -10,8 +10,10 @@ function bubbleSort(int arr,int n){
         arr[mini] = arr[i];
         arr[mini] = arr[temp]; 
     }
+}
 
-    for(i=0; i<=n; i++){
+function printArray(int arr, int n){
+    for(int i=0; i<=n; i++){
         printf("%d", arr[i])
     }
 }
