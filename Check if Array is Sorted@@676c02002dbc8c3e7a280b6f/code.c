@@ -3,14 +3,14 @@
 int main(){
     int n;
     int arr[n];
-    bool a = false;
+    bool a = true;
     scanf("%d", &n);
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
     for(int i=0; i<n; i++){
-        if(arr[i] < arr[i+1]){
-            a = true;
+        if(arr[i] > arr[i+1]){
+            a = false;
             break;
         }
         
