@@ -9,8 +9,12 @@ int main(){
         scanf("%d", &arr[i]);
     }
     for(int i=0; i<n; i++){
-        if(arr[i] < arr[i+1]) bool a = true;
-        else bool a = false;
+        if(arr[i] < arr[i+1]){
+            bool a = true;
+        }
+        else{
+            bool a = false;
+        } 
     }
 
     if(bool == true) printf("Sorted");
