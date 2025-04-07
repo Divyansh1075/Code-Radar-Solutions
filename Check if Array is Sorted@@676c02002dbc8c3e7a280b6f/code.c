@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdbool.h>
+#include<stdio.h>
+#include<stdbool.h>
 int main(){
     int n;
     int arr[n];
@@ -15,7 +15,7 @@ int main(){
         }
         
     }
-
+    
     if(a == true){
         printf("Sorted");
     } 
