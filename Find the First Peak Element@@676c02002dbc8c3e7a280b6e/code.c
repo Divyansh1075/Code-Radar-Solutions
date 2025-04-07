@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d", &a);
-    int arr[a];
+    int n;
+    scanf("%d", &n);
+    int arr[n];
     if (arr[0] > arr[1])
         return arr[0];
 
-    for(int i=1; i<=a; i++){
+    for(int i=1; i<=n; i++){
         if(arr[i] > arr[i+1] &&  arr[i] > arr[i-1]){
             printf("%d", arr[i]);
         }
