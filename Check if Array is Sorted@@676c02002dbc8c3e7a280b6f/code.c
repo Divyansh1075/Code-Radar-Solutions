@@ -10,14 +10,14 @@ int main(){
     }
     for(int i=0; i<n; i++){
         if(arr[i] < arr[i+1]){
-            bool a = true;
+            a = true;
         }
         else{
-            bool a = false;
+            a = false;
         } 
     }
 
-    if(bool == true) printf("Sorted");
+    if(a == true) printf("Sorted");
     else printf("Not Sorted");
 
 
