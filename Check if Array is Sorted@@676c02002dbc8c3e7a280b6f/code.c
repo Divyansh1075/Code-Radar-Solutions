@@ -3,7 +3,7 @@
 int main(){
     int n;
     int arr[n];
-    bool a = true;
+    bool a = false;
     scanf("%d", &n);
     for(int i=0; i<=n; i++){
         scanf("%d", &arr[i]);
@@ -11,10 +11,9 @@ int main(){
     for(int i=0; i<n; i++){
         if(arr[i] < arr[i+1]){
             a = true;
+            break;
         }
-        else{
-            a = false;
-        } 
+        
     }
 
     if(a == true) printf("Sorted");
