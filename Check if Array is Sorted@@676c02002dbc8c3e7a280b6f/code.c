@@ -16,8 +16,12 @@ int main(){
         
     }
 
-    if(a == true) printf("Sorted");
-    else printf("Not Sorted");
+    if(a == true){
+        printf("Sorted");
+    } 
+    else{
+        printf("Not Sorted");
+    } 
 
 
     return 0;
