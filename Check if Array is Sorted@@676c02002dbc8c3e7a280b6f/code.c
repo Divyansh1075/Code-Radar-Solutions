@@ -1,9 +1,8 @@
 #include<stdio.h>
-#include<stdbool.h>
 int main(){
     int n;
     
-    bool a = true;
+    int sorted = 1;
     scanf("%d", &n);
     int arr[n];
     for(int i=0; i<n; i++){
@@ -11,11 +10,11 @@ int main(){
     }
     for(int i=0; i<n; i++){
         if(arr[i] > arr[i+1]){
-            a = false;
+            sorted = 0;
         }
     }
     
-    if(a == true){
+    if(sorted == 1){
         printf("Sorted");
     } 
     else{
